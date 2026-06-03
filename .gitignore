@@ -1,0 +1,27 @@
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+__pycache__/
+.ipynb_checkpoints/
+
+# Keep private project data out of this public skill repo.
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+*.csv
+*.tsv
+*.sav
+*.mat
+*.fif
+*.set
+*.edf
+*.bdf
+*.vhdr
+*.eeg
+*.vmrk
+*.png
+*.jpg
+*.jpeg
+
