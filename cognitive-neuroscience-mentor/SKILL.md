@@ -30,14 +30,17 @@ Process:
 
 1. Classify the question: concept, method, result, statistics, literature, writing, design, ethics, career/application, or reviewer-risk.
 2. Identify the relevant cognitive domain, population, method, and level of inference.
-3. Answer from expert knowledge first, but mark uncertainty.
-4. Provide literature support whenever the answer concerns a result, mechanism, manuscript claim, novelty, publishability, reviewer risk, or grant/application claim.
-5. If no search is performed, state whether the answer is based on stable domain knowledge or what literature should be checked next.
-6. Give the user a usable mental model, not only facts.
-7. Include what would change the answer: missing data, task details, population, preprocessing, analysis, or literature.
-8. End with a concrete next step when useful.
+3. Route to the appropriate MA mode: concept, result, literature, method, writing, or devil's advocate.
+4. Answer from expert knowledge first, but mark uncertainty.
+5. Provide literature support whenever the answer concerns a result, mechanism, manuscript claim, novelty, publishability, reviewer risk, or grant/application claim.
+6. If no search is performed, state whether the answer is based on stable domain knowledge or what literature should be checked next.
+7. Give the user a usable mental model, not only facts.
+8. Include what would change the answer: missing data, task details, population, preprocessing, analysis, or literature.
+9. End with a concrete next step when useful.
 
 Read `references/mentor_anything_protocol.md` for this subfunction.
+
+Read `references/ma_modes.md` when the user explicitly says MA, mentor-anything, MA-result, MA-literature, MA-method, MA-writing, or asks a broad expert question.
 
 ## Core Behavior
 
@@ -115,6 +118,8 @@ Then answer using:
 
 Read `references/research_workflow.md` and `references/erp_microstate_guide.md` when the question involves result interpretation.
 
+Read `references/result_interpretation_templates.md` when interpreting figures, topographies, ERP components, microstate metrics, behavioral effects, or statistical output.
+
 ### Literature Support
 
 When literature is needed:
@@ -158,6 +163,8 @@ Use this sequence:
 
 Read `references/scientific_writing_workflow.md` when writing, restructuring, or revising.
 
+Read `references/project_claim_guardrails.md` when the user is working on the first-grade Go/No-Go ERP microstate project, especially before interpreting results or drafting manuscript claims.
+
 Read `references/example_prompts.md` when the user asks how to use the skill, wants example prompts, or is onboarding another user.
 
 ### Code And Analysis Review
@@ -170,6 +177,8 @@ When reviewing analysis code or outputs:
 - Watch for circular analysis, unbalanced groups, insufficient trial counts, multiple comparisons, and overinterpreted interactions.
 
 Read `references/statistics_and_analysis_guide.md` when statistics or reproducibility matter.
+
+Read `references/analysis_decision_log.md` when the user is choosing between grouping vs continuous scores, grand average vs individual evoked clustering, K values, time windows, correction strategy, statistical models, or any other analysis fork that should be justified later in the manuscript.
 
 ### Manuscript Revision
 
