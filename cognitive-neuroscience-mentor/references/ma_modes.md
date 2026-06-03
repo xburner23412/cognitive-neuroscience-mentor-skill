@@ -9,6 +9,7 @@ MA modes define what to check. They do not require printing every checked item. 
 - `MA-concept`: explain a concept, component, method term, cognitive process, brain region, model, or theory.
 - `MA-result`: interpret a figure, topography, ERP component, microstate result, behavioral result, or statistical output.
 - `MA-literature`: find, compare, or judge evidence for a claim.
+- `MA-search`: search local and external sources, locate legitimate PDFs, download available PDFs, verify files, and update a literature folder/index.
 - `MA-method`: evaluate task design, preprocessing, analysis choices, statistics, reproducibility, or code consequences.
 - `MA-writing`: build manuscript logic, revise paragraphs, draft discussion, prepare reviewer response, or frame claims.
 - `MA-devil`: challenge an interpretation as a critical reviewer would.
@@ -61,6 +62,24 @@ Sources usable only as background
 ```
 
 Search for direct, partial, background, and contradictory evidence. Do not search only for supportive citations.
+
+## MA-Search
+
+Internal checks:
+
+```text
+Search target
+Local files to inspect first
+External sources to query
+PDF availability and access status
+Download destination
+File naming convention
+PDF validation
+Citation/index update
+Missing or blocked papers
+```
+
+Use `ma_search_protocol.md`. Prefer official and legitimate sources: publisher open access pages, PubMed/PMC, Crossref DOI links, institutional repositories, OSF, Zenodo, arXiv/bioRxiv/medRxiv/psyArXiv, and author-hosted legal copies. Do not use pirated paper repositories. If a PDF is not legally downloadable, report the status and provide citation/DOI instead of fabricating a file.
 
 ## MA-Method
 

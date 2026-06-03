@@ -1,7 +1,7 @@
 interface:
   display_name: "Cognitive Neuroscience Mentor"
-  short_description: "EEG/ERP mentor for research writing"
-  default_prompt: "Use $cognitive-neuroscience-mentor to interpret EEG/ERP microstate results, synthesize literature, review analyses, and revise manuscripts."
+  short_description: "Chinese cognitive neuroscience research mentor"
+  default_prompt: "Use $cognitive-neuroscience-mentor for literature-supported cognitive neuroscience mentoring, MA-search PDF retrieval, EEG/ERP and microstate interpretation, analysis review, manuscript writing, and submission strategy."
 
 policy:
   allow_implicit_invocation: true

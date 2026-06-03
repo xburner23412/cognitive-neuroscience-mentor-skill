@@ -57,6 +57,8 @@ Use only when the user asks for:
 - response to reviewers;
 - claim-evidence register;
 - full literature synthesis.
+- exhaustive MA-search;
+- download/search report.
 
 Output may include paper spine, claim-evidence table, figure-to-argument table, reviewer-risk simulation, submission checklist, or manuscript-ready wording.
 
@@ -75,6 +77,10 @@ Treat these as expansion requests:
 - "reviewer risk";
 - "claim-evidence";
 - "paper spine".
+- "尽可能下载";
+- "找到所有";
+- "下载 PDF";
+- "MA-search full".
 
 Treat these as concise requests:
 
