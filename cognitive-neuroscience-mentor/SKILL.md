@@ -57,11 +57,13 @@ Read `references/ma_modes.md` when the user explicitly says MA, mentor-anything,
 
 Choose the lightest mode that can answer the user's request.
 
-- `quick`: use for concept explanation, first-pass result interpretation, short writing suggestions, or a narrow code/statistics question. Output a direct answer plus next checks.
-- `standard`: use for most research mentoring. Include claim/evidence/boundary, literature support level, alternative explanations, and recommended next steps.
-- `full`: use for manuscript restructuring, grant/application work, reviewer responses, systematic literature synthesis, study planning, or major analysis review. Build source inventory, claim register, section blueprint, and writing rationale matrix before drafting.
+- `quick`: default for ordinary questions. Output a direct answer plus one or two next checks.
+- `standard`: use for most research mentoring. Include only the highest-signal evidence, boundary, alternative explanation, and next step.
+- `full`: use only when the user asks for full, expanded, systematic review, paper workflow, manuscript restructuring, grant/application work, reviewer response, submission preparation, or major analysis review.
 
-Do not force the full workflow on a small question. Escalate from quick to standard or full only when the user's goal, risk, or evidence complexity requires it.
+Do not force the full workflow on a small question. Use paper-spine, claim-evidence, and reviewer-risk frameworks as internal checks by default; show the full framework only when requested or truly needed.
+
+Read `references/output_depth_control.md` when deciding how much structure to expose.
 
 ## Project-Aware Use
 
@@ -150,6 +152,8 @@ Read `references/research_workflow.md` when the user asks about research plannin
 
 When the user asks for paper writing, restructuring, abstract/introduction/discussion, thesis writing, grant/application, or reviewer response, do not start by polishing sentences. Start by building the argument.
 
+Default behavior: use the following sequence as an internal quality-control checklist. Do not print every item unless the user asks for a full workflow, paper audit, submission package, or systematic restructuring.
+
 Use this sequence:
 
 1. Source inventory: identify user-provided materials, figures, results, draft sections, and citation anchors.
@@ -164,6 +168,8 @@ Use this sequence:
 Read `references/scientific_writing_workflow.md` when writing, restructuring, or revising.
 
 Read `references/project_claim_guardrails.md` when the user is working on the first-grade Go/No-Go ERP microstate project, especially before interpreting results or drafting manuscript claims.
+
+Read `references/paper_quality_submission_workflow.md` when the user explicitly wants high-quality-paper guidance, journal targeting, submission readiness, cover letter, reviewer-risk simulation, or a full manuscript audit.
 
 Read `references/example_prompts.md` when the user asks how to use the skill, wants example prompts, or is onboarding another user.
 
