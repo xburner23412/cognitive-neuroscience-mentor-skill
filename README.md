@@ -5,6 +5,7 @@ A Codex skill for cognitive neuroscience research mentoring.
 It supports:
 
 - `mentor-anything` expert Q&A for cognitive neuroscience questions;
+- evidence-supported mentoring with explicit citation direction and support levels;
 - cognitive neuroscience research planning;
 - literature search and evidence synthesis;
 - EEG/ERP, MEG, fMRI, fNIRS, eye-tracking, behavioral, and computational-method reasoning;
@@ -59,6 +60,10 @@ or:
 
 ```text
 Use cognitive-neuroscience-mentor in standard mode. Interpret this ERP topomap result and suggest what literature I should check.
+```
+
+```text
+Use mentor-anything with literature support. Explain why my child Go/No-Go ERP topomap differs from the adult NoGo-N2/P3 pattern.
 ```
 
 ```text

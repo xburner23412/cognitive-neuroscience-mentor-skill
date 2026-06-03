@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.3.1
+
+- Updated `mentor-anything` to require visible literature support for result interpretation, mechanism claims, manuscript wording, novelty, reviewer-facing, and grant/application claims.
+- Added evidence levels to mentor-anything answers: direct, partial, background, contradictory, and unverified.
+
 ## v0.3.0
 
 - Added `mentor-anything` as the default expert Q&A subfunction.

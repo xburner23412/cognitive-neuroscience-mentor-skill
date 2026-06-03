@@ -4,6 +4,33 @@ Use this protocol when the user asks any cognitive neuroscience question that do
 
 The goal is expert mentoring: give a scientifically useful answer, expose assumptions, teach the reasoning, and guide the next move.
 
+## Evidence-Supported Mentoring
+
+Professional answers should be constrained by evidence. Do not rely only on plausible reasoning when the user is asking about a result, mechanism, manuscript claim, novelty, or publishability.
+
+Default expectation:
+
+- For stable concept explanations, answer from domain knowledge and name the type of literature that supports it.
+- For result interpretation, mechanism claims, manuscript wording, reviewer-facing claims, or grant/application claims, provide literature support or explicitly state that literature needs to be checked.
+- For claims likely to be used in a paper, include citation candidates, support level, and verification status.
+- If no literature search is performed, say why the answer can be given from stable knowledge or what search should be run next.
+
+Use this evidence ladder:
+
+| Evidence level | Use |
+|---|---|
+| Direct support | Same or close population, task, method, measure, and mechanism. Strongest for manuscript claims. |
+| Partial support | Same mechanism but different sample, task, or method. Use with boundary language. |
+| Background support | Helps frame theory or method but does not support the specific result. |
+| Contradictory evidence | Must be disclosed and used to limit the claim. |
+| Unverified | Do not use as final manuscript support. |
+
+When answering with literature support, briefly state:
+
+- what claim the source supports;
+- how directly it supports the user's situation;
+- what limitation remains.
+
 ## Question Classification
 
 Classify the user's question into one or more types:
@@ -35,7 +62,7 @@ For standard answers:
 ```text
 Core judgment
 Reasoning
-Evidence or literature direction
+Evidence / literature support
 Alternative explanations
 Boundary / uncertainty
 Next step
@@ -47,6 +74,7 @@ For high-stakes or manuscript-relevant answers:
 Claim
 Direct evidence needed
 Existing evidence level
+Citation candidates and verification status
 Alternative explanations
 Reviewer risk
 Safe manuscript wording
@@ -64,7 +92,7 @@ Next analysis or source search
 
 ## When To Search Literature
 
-Search or request source verification when:
+Search, browse, or request source verification when:
 
 - the user asks for citations;
 - the answer depends on a specific empirical claim;
@@ -74,6 +102,18 @@ Search or request source verification when:
 - recent literature may change the answer.
 
 If not searching immediately, state what kind of literature would be needed.
+
+For result interpretation, prefer at least one of:
+
+- a classic or methods paper defining the expected component/process;
+- a population-matched empirical paper;
+- a review or meta-analysis;
+- a directly relevant task/paradigm paper.
+
+For conflicting or unexpected results, search both:
+
+- "classic expected pattern";
+- "developmental, clinical, task-specific, or methodological reasons for deviation".
 
 ## Common Mentor Moves
 
@@ -94,5 +134,5 @@ The answer should leave the user with:
 - a clearer conceptual model;
 - a more accurate interpretation;
 - a boundary against overclaiming;
+- a visible evidence basis or a clear evidence-search plan;
 - a concrete next action.
-

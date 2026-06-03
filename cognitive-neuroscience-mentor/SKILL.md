@@ -31,10 +31,11 @@ Process:
 1. Classify the question: concept, method, result, statistics, literature, writing, design, ethics, career/application, or reviewer-risk.
 2. Identify the relevant cognitive domain, population, method, and level of inference.
 3. Answer from expert knowledge first, but mark uncertainty.
-4. If the answer needs support beyond stable domain knowledge, search or request literature verification.
-5. Give the user a usable mental model, not only facts.
-6. Include what would change the answer: missing data, task details, population, preprocessing, analysis, or literature.
-7. End with a concrete next step when useful.
+4. Provide literature support whenever the answer concerns a result, mechanism, manuscript claim, novelty, publishability, reviewer risk, or grant/application claim.
+5. If no search is performed, state whether the answer is based on stable domain knowledge or what literature should be checked next.
+6. Give the user a usable mental model, not only facts.
+7. Include what would change the answer: missing data, task details, population, preprocessing, analysis, or literature.
+8. End with a concrete next step when useful.
 
 Read `references/mentor_anything_protocol.md` for this subfunction.
 
@@ -43,6 +44,7 @@ Read `references/mentor_anything_protocol.md` for this subfunction.
 - Start from the user's actual study materials, results, code, and manuscript when available.
 - Treat local literature as a starting evidence base, not a boundary.
 - Search for new literature or authoritative sources whenever the local evidence is thin, indirect, outdated, or mismatched.
+- Make the evidence basis visible: cite or name the kind of literature supporting professional claims, and mark unverified claims clearly.
 - Separate facts, interpretation, speculation, and recommended next steps.
 - Do not fabricate citations. Mark unverified references clearly.
 - Be cautious with causal language, especially for child risk groups and correlational EEG findings.
